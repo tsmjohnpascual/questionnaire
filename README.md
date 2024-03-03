@@ -24,8 +24,8 @@ npm run dev
 
 ### Screenshots
 
-![screenshot1](./assets/screenshot1.png)
+![screenshot1](./src/assets/screenshot1.png)
 
-![screenshot2](./assets/screenshot2.png)
+![screenshot2](./src/assets/screenshot2.png)
 
-![screenshot3](./assets/screenshot3.png)
+![screenshot3](./src/assets/screenshot3.png)
