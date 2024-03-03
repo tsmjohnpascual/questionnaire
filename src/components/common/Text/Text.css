@@ -1,0 +1,16 @@
+.progress {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 758px) {
+    .progress {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 594px) {
+    .progress {
+        font-size: 0.9rem;
+    }
+}
