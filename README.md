@@ -24,8 +24,8 @@ npm run dev
 
 ### Screenshots
 
-![screenshot1](./src/assets/screenshot1.png)
+<img width="662" alt="screenshot1" src="https://github.com/tsmjohnpascual/questionnaire/assets/36450257/b7a841f8-d503-4084-9328-6c69addb465e">
 
-![screenshot2](./src/assets/screenshot2.png)
+<img width="656" alt="screenshot2" src="https://github.com/tsmjohnpascual/questionnaire/assets/36450257/c65e6677-c737-45e3-9c28-a258ed494adf">
 
-![screenshot3](./src/assets/screenshot3.png)
+<img width="648" alt="screenshot3" src="https://github.com/tsmjohnpascual/questionnaire/assets/36450257/b96c718c-400a-4706-91ef-95005df1cbb0">
