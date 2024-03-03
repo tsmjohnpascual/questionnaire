@@ -2,7 +2,7 @@ import React from 'react'
 import './Navigation.css'
 import Button from '../common/Button/Button'
 
-const Navigation = ({ questions, currentQuestion, setCurrentQuestion, setShowResults, setSelectedAnswer, userAnswers }) => {
+const Navigation = ({ questions, currentQuestion, setCurrentQuestion, setShowResults, setSelectedAnswer, userAnswers, setShowMessage }) => {
     const handlePrev = () => {
         setSelectedAnswer(null)
         if (currentQuestion > 0) {
@@ -19,8 +19,11 @@ const Navigation = ({ questions, currentQuestion, setCurrentQuestion, setShowRes
 
     const handleResult = () => {
         if (userAnswers?.length === questions?.length) {
+            setShowMessage(false)
             setShowResults(true)
-        } 
+        } else {
+            setShowMessage(true)
+        }
     }
 
     return (
