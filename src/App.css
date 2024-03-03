@@ -1,1 +1,17 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 15%;
+}
 
+.container {
+    background-color: #1B1B32;
+    border-radius: 0.25rem;
+    padding: 2.5rem;
+    margin: auto 10%;
+    width: 750px;
+}

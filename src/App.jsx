@@ -1,8 +1,15 @@
 import React from 'react'
+import './App.css'
+import Title from './components/Title/Title'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='app'>
+        <div className='container'>
+            <Title />
+            <hr />
+        </div>
+    </div>
   )
 }
 
