@@ -3,11 +3,13 @@ import { useState } from 'react'
 import Progress from '../Progress/Progress'
 import Subtitle from '../common/Subtitle/Subtitle'
 import Answers from '../Answers/Answers'
+import Navigation from '../Navigation/Navigation'
 
 const Questionnaire = ({ questions }) => {
     const [currentQuestion, setCurrentQuestion] = useState(0)
     const [userAnswers, setUserAnswers] = useState([])
     const [selectedAnswer, setSelectedAnswer] = useState()
+    const [showResults, setShowResults] = useState(false)
     const { question, answers } = questions[currentQuestion]
 
     return (
@@ -26,6 +28,15 @@ const Questionnaire = ({ questions }) => {
                 setUserAnswers={setUserAnswers}
                 selectedAnswer={selectedAnswer}
                 setSelectedAnswer={setSelectedAnswer}
+            />
+            <Navigation
+                questions={questions}
+                currentQuestion={currentQuestion}
+                setCurrentQuestion={setCurrentQuestion}
+                showResults={showResults}
+                setShowResults={setShowResults}
+                setSelectedAnswer={setSelectedAnswer}
+                userAnswers={userAnswers}
             />
         </>
     )
